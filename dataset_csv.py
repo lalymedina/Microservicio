@@ -63,6 +63,6 @@ for Country, data3 in df3.groupby('Country'):
 for Country, data4 in df.groupby('Country'):
     data4.to_csv("/content/drive/MyDrive/Colab Notebooks/DataSet/GlobalTemp/{}.csv".format(Country))
 
-df2.columns
+#df2.columns
 
-pd.unique(df['Country']).tolist()
+#pd.unique(df['Country']).tolist()
