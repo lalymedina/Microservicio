@@ -60,7 +60,6 @@ df3['Longitude'] =df3['Longitude'].replace('[0-9.0-9A-Z]$', np.nan, regex=True)
 for Country, data3 in df3.groupby('Country'):
     data3.to_csv("/content/drive/MyDrive/Colab Notebooks/DataSet/ByMajorCity/{}.csv".format(Country))
 
-for Country, data4 in df.groupby('Country'):
-    data4.to_csv("/content/drive/MyDrive/Colab Notebooks/DataSet/GlobalTemp/{}.csv".format(Country))
+
 
 
